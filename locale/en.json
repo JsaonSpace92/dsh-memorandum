@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "备忘录",
-    "description": "记录每日重要事件与常驻备忘事项，支持完成标记、重要度分级与选中文本右键添加备忘录。"
+    "title": "Memorandum",
+    "description": "Daily and evergreen memos with carry-over, quick capture, undo, and a \"save to memo\" item in the conversation selection context menu."
   }
 }

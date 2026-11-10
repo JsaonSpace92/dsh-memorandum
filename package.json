@@ -1,7 +1,7 @@
 {
   "name": "dsh-memorandum",
-  "version": "0.2.0",
-  "description": "DSH 左侧栏备忘录插件：记录每日重要事件与全局常驻备忘，支持选中对话文字右击添加备忘录、完成标记、重要度分级与跨日顺延。",
+  "version": "0.3.0",
+  "description": "DSH 左侧栏备忘录插件：当日事项与常驻事项、跨日顺延、快速输入、撤销删除，并通过官方对话交互接口在选区右键中记入备忘（保留复制与引用）。",
   "type": "module",
   "license": "MIT",
   "repository": {
@@ -42,7 +42,10 @@
       "inject": [
         "@deepseek-ai/dsh-client-ui-sidebar",
         "@deepseek-ai/dsh-client-ui-layout",
-        "@deepseek-ai/dsh-client-locale"
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-chat",
+        "@deepseek-ai/dsh-client-shortcuts"
       ]
     }
   }
