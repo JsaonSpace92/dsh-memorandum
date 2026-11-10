@@ -43,11 +43,7 @@ dsh plugin --profile desktop add github:JsaonSpace92/dsh-memorandum
 
 安装或更新之后，需要完全退出并重新打开 DSH。
 
-## 贡献者
-
-- Cloud
-
-本次重构由 Opus5.5 完成。
+本项目由 Opus 5.5 重构。
 
 ## 开发
 
